@@ -13,16 +13,16 @@ weapons: [
    shootCone: 180
    ejectEffect: none
    shootSound: explosionbig
-   shootEffect: reactorExplosion
    x: 0
    shootY: 0
    mirror: false
    bullet: {
+      shootEffect: reactorExplosion
       type: BombBulletType
       hitEffect: pulverize
       lifetime: 10
       speed: 1
-      splashDamageRadius: 55f
+      splashDamageRadius: 55
       instantDisappear: true
       splashDamage: 1250
       killShooter: true
