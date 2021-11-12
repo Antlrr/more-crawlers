@@ -17,6 +17,13 @@ weapons: [
    shootY: 0
    mirror: false
    firstShotDelay: 30
+   shootStatus: {
+      name: stopped
+      displayName: stopped
+      dragMultiplier: 5
+      speedMultiplier: 0
+      show: false
+      }
    bullet: {
       shootEffect: reactorExplosion
       type: BasicBulletType
@@ -47,7 +54,7 @@ weapons: [
             sides: 4
             colorFrom: f00000
             colorTo: f0000000
-            sizeFrom: 40
+            sizeFrom: 0
             sizeTo: 40
             }
          ]
