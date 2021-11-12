@@ -25,6 +25,7 @@ weapons: [
          effects: [
             {
             type: ParticleEffect
+            interp: swing
             particles: 1
             lifetime: 500
             length: 0
