@@ -24,7 +24,6 @@ weapons: [
       lifetime: 45
       speed: 1
       splashDamageRadius: 65
-      instantDisappear: true
       splashDamage: 6
       killShooter: true
       hittable: false
