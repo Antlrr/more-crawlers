@@ -81,9 +81,8 @@ weapons: [
    x: 0
    shootY: 0
    mirror: false
-   firstShotDelay: 2
-   shotDelay: 6
-   shots: 40
+   shotDelay: 2
+   shots: 35
    spacing: 10
    bullet: {
       type: BasicBulletType
