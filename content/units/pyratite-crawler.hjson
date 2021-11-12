@@ -21,7 +21,7 @@ weapons: [
    bullet: {
       type: FireBulletType
       hitEffect: pulverize
-      lifetime: 20
+      lifetime: 60
       speed: 0.5
       splashDamageRadius: 65
       instantDisappear: true
