@@ -1,1 +1,56 @@
-
+type: mech
+controller: SuicideAI
+speed: 1
+hitSize: 8
+health: 200
+mechSideSway: 0.25
+range: 40
+weapons: [
+   {
+   shootOnDeath: true
+   useAmmo: false
+   reload: 24
+   shootCone: 180
+   ejectEffect: none
+   shootSound: explosionbig
+   x: 0
+   shootY: 0
+   mirror: false
+   firstShotDelay: 30
+   bullet: {
+      shootEffect: reactorExplosion
+      type: BasicBulletType
+      shootEffect: {
+         type: MultiEffect
+         lifetime: 50
+         effects: [
+            {
+            type: ParticleEffect
+            length: 0
+            interp: pow50ut
+            sizeFrom: 0
+            sizeTo: 10
+            colorFrom: f00000
+            colorTo: f0000000
+            }
+         }
+      ]
+      hitEffect: pulverize
+      lifetime: 40
+      speed: 0
+      homingPower: 2
+      splashDamageRadius: 136
+      instantDisappear: true
+      splashDamage: 1250
+      killShooter: true
+      hittable: false
+      collidesAir: true
+      fragBullets: 1
+      fragBullet: {
+         type: BasicBulletType
+         lifetime: 20
+         speed: 1
+         }
+      }
+   }
+]
