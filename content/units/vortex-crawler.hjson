@@ -43,6 +43,7 @@ weapons: [
             }
             {
             type: WaveEffect
+            lifetime: 300
             colorFrom: f00000
             colorTo: f0000000
             sizeFrom: 40
@@ -54,7 +55,7 @@ weapons: [
             sides: 4
             colorFrom: f00000
             colorTo: f0000000
-            sizeFrom: 0
+            sizeFrom: 20
             sizeTo: 40
             }
          ]
