@@ -27,7 +27,6 @@ weapons: [
             {
             type: ParticleEffect
             length: 0
-            interp: slope
             sizeFrom: 0
             sizeTo: 10
             colorFrom: f00000
