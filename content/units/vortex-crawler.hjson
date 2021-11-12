@@ -33,8 +33,8 @@ weapons: [
             colorFrom: f00000
             colorTo: f0000000
             }
-         }
-      ]
+         ]
+      }
       hitEffect: pulverize
       lifetime: 40
       speed: 0
