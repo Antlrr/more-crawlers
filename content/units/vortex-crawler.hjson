@@ -87,8 +87,8 @@ weapons: [
    spacing: 10
    bullet: {
       type: BasicBulletType
-      lifetime: 60
-      speed: 1
+      lifetime: 80
+      speed: 2
       homingPower: 0.1
       splashDamageRadius: 46
       instantDisappear: true
