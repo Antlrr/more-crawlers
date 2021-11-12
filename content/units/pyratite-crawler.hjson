@@ -16,6 +16,7 @@ weapons: [
    x: 0
    shootY: 0
    mirror: false
+   shots: 4
    bullet: {
       type: FireBulletType
       hitEffect: pulverize
