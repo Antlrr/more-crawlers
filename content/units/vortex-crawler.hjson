@@ -22,7 +22,7 @@ weapons: [
       type: BasicBulletType
       shootEffect: {
          type: MultiEffect
-         lifetime: 50
+         lifetime: 500
          effects: [
             {
             type: ParticleEffect
