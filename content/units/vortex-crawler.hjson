@@ -25,7 +25,6 @@ weapons: [
       show: false
       }
    bullet: {
-      shootEffect: reactorExplosion
       type: BasicBulletType
       shootEffect: {
          type: MultiEffect
@@ -43,7 +42,7 @@ weapons: [
             }
             {
             type: WaveEffect
-            lifetime: 550
+            lifetime: 510
             colorFrom: f00000
             colorTo: f0000000
             sizeFrom: 40
@@ -68,6 +67,32 @@ weapons: [
       instantDisappear: true
       splashDamage: 2000
       killShooter: true
+      hittable: false
+      collidesAir: true
+      }
+   }
+   {
+   shootOnDeath: true
+   useAmmo: false
+   reload: 24
+   shootCone: 180
+   ejectEffect: none
+   shootSound: explosionbig
+   x: 0
+   shootY: 0
+   mirror: false
+   firstShotDelay: 30
+   shotDelay: 6
+   shots: 40
+   spacing: 10
+   bullet: {
+      type: BasicBulletType
+      lifetime: 60
+      speed: 1
+      homingPower: 0.1
+      splashDamageRadius: 46
+      instantDisappear: true
+      splashDamage: 32
       hittable: false
       collidesAir: true
       }
