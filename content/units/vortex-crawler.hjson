@@ -16,7 +16,7 @@ weapons: [
    x: 0
    shootY: 0
    mirror: false
-   firstShotDelay: 30
+   firstShotDelay: 58
    shootStatus: {
       name: stopped
       displayName: stopped
