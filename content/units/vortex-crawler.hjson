@@ -27,7 +27,7 @@ weapons: [
             {
             type: ParticleEffect
             length: 0
-            interp: pow50ut
+            interp: swing
             sizeFrom: 0
             sizeTo: 10
             colorFrom: f00000
