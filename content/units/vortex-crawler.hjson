@@ -49,8 +49,12 @@ weapons: [
       fragBullets: 1
       fragBullet: {
          type: BasicBulletType
-         lifetime: 20
+         lifetime: 60
          speed: 1
+         splashDamageRadius: 160
+         splashDamage: 40
+         hittable: false
+         collidesAir: true
          }
       }
    }
