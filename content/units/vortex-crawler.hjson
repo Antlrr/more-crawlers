@@ -16,7 +16,7 @@ weapons: [
    x: 0
    shootY: 0
    mirror: false
-   firstShotDelay: 70
+   firstShotDelay: 80
    shootStatus: {
       name: stopped
       displayName: stopped
@@ -81,9 +81,9 @@ weapons: [
    x: 0
    shootY: 0
    mirror: false
-   shotDelay: 2
+   shotDelay: 0
    shots: 35
-   spacing: 10
+   spacing: 18
    bullet: {
       type: BasicBulletType
       lifetime: 80
