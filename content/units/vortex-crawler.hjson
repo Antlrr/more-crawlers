@@ -81,7 +81,7 @@ weapons: [
    x: 0
    shootY: 0
    mirror: false
-   firstShotDelay: 30
+   firstShotDelay: 2
    shotDelay: 6
    shots: 40
    spacing: 10
