@@ -18,7 +18,7 @@ weapons: [
    shootY: 0
    mirror: false
    shots: 4
-   spacing: 40
+   spacing: 80
    bullet: {
       type: FireBulletType
       hitEffect: pulverize
