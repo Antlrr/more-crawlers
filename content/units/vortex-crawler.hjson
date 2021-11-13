@@ -97,8 +97,10 @@ weapons: [
       sprite: missile-large
       frontColor: 97eaf0
       backColor: 97eaf0
-      trailWidth: 2
-      trailLength: 6
+      width: 9
+      height: 11
+      trailWidth: 6
+      trailLength: 18
       trailColor: 97eaf0
       keepVelocity: false
       lifetime: 80
