@@ -131,14 +131,14 @@ weapons: [
       width: 0
       height: 1
       keepVelocity: false
-      lifetime: 50
+      lifetime: 100
       speed: 0
       hittable: false
       collidesAir: true
       fragBullets: 6
       fragBullet: {
          type: LaserBulletType
-         length: 50
+         length: 120
          width: 5
          colors: [ffffff,ffffff,97eaf0]
          }
