@@ -31,7 +31,8 @@ weapons: [
          effects: [
             {
             type: ParticleEffect
-            interp: swing
+            region: more-crawlers-vortex
+            interp: pow10Out
             particles: 1
             lifetime: 500
             length: 0
