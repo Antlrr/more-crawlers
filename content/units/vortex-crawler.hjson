@@ -17,7 +17,7 @@ weapons: [
    shootY: 0
    mirror: false
    firstShotDelay: 80
-   shots: 4
+   shots: 6
    shotDelay: 0.2
    shootStatus: {
       name: stopped
@@ -51,8 +51,8 @@ weapons: [
             colorTo: 97eaf000
             sizeFrom: 120
             sizeTo: 120
-            strokeFrom: 10
-            strokeTo: 10
+            strokeFrom: 6
+            strokeTo: 6
             }
             {
             type: WaveEffect
@@ -61,8 +61,8 @@ weapons: [
             sides: 4
             colorFrom: 97eaf0
             colorTo: 97eaf000
-            strokeFrom: 10
-            strokeTo: 10
+            strokeFrom: 6
+            strokeTo: 6
             sizeFrom: 120
             sizeTo: 120
             }
