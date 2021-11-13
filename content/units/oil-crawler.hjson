@@ -17,6 +17,7 @@ weapons: [
    rotate: true
    x: 0
    shootX: 0
+   shootY: 0
    mirror: false
    shots: 4
    spacing: 80
@@ -29,7 +30,7 @@ weapons: [
       damage: 11
       speed: 0
       shootEffect: shootSmall
-      lifetime: 40
+      lifetime: 10
       collidesAir: true
       killShooter: true
       }
