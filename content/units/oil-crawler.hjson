@@ -5,6 +5,7 @@ hitSize: 8
 health: 200
 mechSideSway: 0.25
 range: 40
+immunities: [tarred]
 weapons: [
    {
    shootOnDeath: true
@@ -17,6 +18,8 @@ weapons: [
    x: 0
    shootX: 0
    mirror: false
+   shots: 4
+   spacing: 80
    bullet: {
       type: LiquidBulletType
       status: tarred
@@ -24,7 +27,6 @@ weapons: [
       liquid: oil
       damage: 11
       speed: 0
-      drag: 1
       shootEffect: shootSmall
       lifetime: 40
       collidesAir: true
