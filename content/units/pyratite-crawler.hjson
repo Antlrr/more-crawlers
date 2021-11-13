@@ -21,6 +21,7 @@ weapons: [
    spacing: 80
    bullet: {
       type: FireBulletType
+      keepVelocity: false
       hitEffect: none
       lifetime: 45
       speed: 1
