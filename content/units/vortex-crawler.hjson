@@ -139,7 +139,7 @@ weapons: [
       fragBullet: {
          type: LaserBulletType
          length: 120
-         width: 5
+         width: 10
          colors: [ffffff,ffffff,97eaf0]
          }
       }
