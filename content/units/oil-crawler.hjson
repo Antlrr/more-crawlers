@@ -1,0 +1,31 @@
+type: mech
+controller: SuicideAI
+speed: 1
+hitSize: 8
+health: 200
+mechSideSway: 0.25
+range: 40
+weapons: [
+   {
+   shootOnDeath: true
+   killShooter: true
+   top: false
+   reload: 2
+   ejectEffect: none
+   shootSound: SmallFlame
+   shootEffect: none
+   rotate: true
+   x: 0
+   shootX: 0
+   mirror: false
+   bullet: {
+      type: LiquidBulletType
+      liquid: oil
+      damage: 11
+      speed: 0
+      shootEffect: shootSmall
+      lifetime: 10
+      collidesAir: true
+      }
+   }
+]
