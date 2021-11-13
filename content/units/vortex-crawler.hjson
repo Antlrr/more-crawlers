@@ -39,7 +39,7 @@ weapons: [
             particles: 1
             lifetime: 500
             length: 0
-            sizeFrom: 160
+            sizeFrom: 120
             sizeTo: 0
             colorFrom: 97eaf0
             colorTo: 97eaf000
@@ -49,8 +49,8 @@ weapons: [
             lifetime: 510
             colorFrom: 97eaf0
             colorTo: 97eaf000
-            sizeFrom: 1600
-            sizeTo: 1600
+            sizeFrom: 160
+            sizeTo: 160
             }
             {
             type: WaveEffect
@@ -59,8 +59,8 @@ weapons: [
             sides: 4
             colorFrom: 97eaf0
             colorTo: 97eaf000
-            sizeFrom: 1600
-            sizeTo: 1600
+            sizeFrom: 160
+            sizeTo: 160
             }
          ]
       }
@@ -68,7 +68,7 @@ weapons: [
       lifetime: 40
       speed: 0
       homingPower: 2
-      splashDamageRadius: 1600
+      splashDamageRadius: 160
       instantDisappear: true
       splashDamage: 2000
       killShooter: true
