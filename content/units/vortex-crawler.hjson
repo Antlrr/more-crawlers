@@ -9,7 +9,7 @@ range: 40
 weapons: [
    {
    useAmmo: false
-   reload: 24
+   reload: 3000
    shootCone: 180
    ejectEffect: none
    shootSound: explosionbig
