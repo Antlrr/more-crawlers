@@ -37,14 +37,14 @@ weapons: [
             length: 0
             sizeFrom: 10
             sizeTo: 0
-            colorFrom: f00000
-            colorTo: f0000000
+            colorFrom: 97eaf0
+            colorTo: 97eaf000
             }
             {
             type: WaveEffect
             lifetime: 510
-            colorFrom: f00000
-            colorTo: f0000000
+            colorFrom: 97eaf0
+            colorTo: 97eaf000
             sizeFrom: 40
             sizeTo: 40
             }
@@ -52,8 +52,8 @@ weapons: [
             type: WaveEffect
             line: true
             sides: 4
-            colorFrom: f00000
-            colorTo: f0000000
+            colorFrom: 97eaf0
+            colorTo: 97eaf000
             sizeFrom: 20
             sizeTo: 40
             }
@@ -86,6 +86,12 @@ weapons: [
    spacing: 18
    bullet: {
       type: BasicBulletType
+      sprite: missile-large
+      frontColor: 97eaf0
+      backColor: 97eaf0
+      trailWidth: 2
+      trailLength: 6
+      trailColor: 97eaf0
       keepVelocity: false
       lifetime: 80
       speed: 1
