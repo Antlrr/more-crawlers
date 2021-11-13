@@ -9,7 +9,7 @@ weapons: [
    {
    shootOnDeath: true
    top: false
-   reload: 24
+   reload: 2
    ejectEffect: none
    shootSound: SmallFlame
    shootEffect: none
@@ -24,7 +24,7 @@ weapons: [
       liquid: oil
       damage: 11
       speed: 0
-      drag: 0
+      drag: 1
       shootEffect: shootSmall
       lifetime: 40
       collidesAir: true
