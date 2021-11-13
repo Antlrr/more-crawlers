@@ -103,7 +103,7 @@ weapons: [
       trailLength: 18
       trailColor: 97eaf0
       keepVelocity: false
-      lifetime: 10
+      lifetime: 58
       drag: -0.1
       speed: 1
       homingPower: 0.1
