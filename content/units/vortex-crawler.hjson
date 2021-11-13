@@ -39,7 +39,7 @@ weapons: [
             particles: 1
             lifetime: 500
             length: 0
-            sizeFrom: 120
+            sizeFrom: 80
             sizeTo: 0
             colorFrom: 97eaf0
             colorTo: 97eaf000
@@ -49,8 +49,10 @@ weapons: [
             lifetime: 510
             colorFrom: 97eaf0
             colorTo: 97eaf000
-            sizeFrom: 160
-            sizeTo: 160
+            sizeFrom: 120
+            sizeTo: 120
+            strokeFrom: 10
+            strokeTo: 10
             }
             {
             type: WaveEffect
@@ -59,8 +61,10 @@ weapons: [
             sides: 4
             colorFrom: 97eaf0
             colorTo: 97eaf000
-            sizeFrom: 160
-            sizeTo: 160
+            strokeFrom: 10
+            strokeTo: 10
+            sizeFrom: 120
+            sizeTo: 120
             }
          ]
       }
