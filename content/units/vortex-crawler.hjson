@@ -77,13 +77,13 @@ weapons: [
    reload: 120
    shootCone: 180
    ejectEffect: none
-   shootSound: explosionbig
+   shootSound: lasershoot
    x: 0
    shootY: 0
    mirror: false
    shotDelay: 4
    shots: 35
-   spacing: 18
+   spacing: 20
    bullet: {
       type: BasicBulletType
       sprite: missile-large
