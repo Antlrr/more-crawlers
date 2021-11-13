@@ -21,6 +21,7 @@ weapons: [
    mirror: false
    shots: 4
    spacing: 80
+   range: 40
    bullet: {
       type: LiquidBulletType
       keepVelocity: false
