@@ -1,6 +1,4 @@
 type: UnitFactory
-name: Smol Factory
-size: 2
 consumes: {
   power: 0.1
 }
