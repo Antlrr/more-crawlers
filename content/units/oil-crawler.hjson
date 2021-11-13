@@ -20,7 +20,7 @@ weapons: [
    bullet: {
       type: LiquidBulletType
       status: tarred
-      statusDuration: 120
+      statusDuration: 600
       liquid: oil
       damage: 11
       speed: 0
