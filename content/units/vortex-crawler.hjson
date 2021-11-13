@@ -32,11 +32,12 @@ weapons: [
             {
             type: ParticleEffect
             region: more-crawlers-vortex
-            interp: pow10Out
+            interp: swing
+            spin: 1
             particles: 1
             lifetime: 500
             length: 0
-            sizeFrom: 10
+            sizeFrom: 32
             sizeTo: 0
             colorFrom: 97eaf0
             colorTo: 97eaf000
