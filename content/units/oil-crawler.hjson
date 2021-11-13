@@ -22,6 +22,7 @@ weapons: [
    spacing: 80
    bullet: {
       type: LiquidBulletType
+      keepVelocity: false
       status: tarred
       statusDuration: 600
       liquid: oil
