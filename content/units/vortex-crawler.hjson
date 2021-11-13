@@ -81,7 +81,7 @@ weapons: [
    x: 0
    shootY: 0
    mirror: false
-   shotDelay: 1
+   shotDelay: 4
    shots: 35
    spacing: 18
    bullet: {
