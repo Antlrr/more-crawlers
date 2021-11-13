@@ -127,21 +127,6 @@ weapons: [
       type: BasicBulletType
       sprite: circle-bullet
       frontColor: 97eaf0
-      backColor:    useAmmo: false
-   reload: 120
-   shootCone: 180
-   ejectEffect: none
-   shootSound: lasershoot
-   x: 0
-   shootY: 0
-   mirror: false
-   shotDelay: 4
-   shots: 35
-   spacing: 20
-   bullet: {
-      type: BasicBulletType
-      sprite: missile-large
-      frontColor: 97eaf0
       backColor: 97eaf0
       width: 0
       height: 1
@@ -160,4 +145,3 @@ weapons: [
       }
    }
 ]
-  
