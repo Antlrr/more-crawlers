@@ -27,7 +27,7 @@ weapons: [
       keepVelocity: false
       status: melting
       statusDuration: 1200
-      liquid: burning
+      liquid: slag
       damage: 11
       speed: 0
       shootEffect: shootSmall
