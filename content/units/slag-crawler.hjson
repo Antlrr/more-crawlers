@@ -1,0 +1,39 @@
+type: mech
+controller: SuicideAI
+speed: 1
+hitSize: 8
+health: 200
+mechSideSway: 0.25
+range: 60
+immunities: [burning,melting]
+weapons: [
+   {
+   shootOnDeath: true
+   top: false
+   reload: 2
+   ejectEffect: none
+   shootSound: SmallFlame
+   shootEffect: none
+   rotate: true
+   x: 0
+   shootX: 0
+   shootY: 0
+   mirror: false
+   shots: 4
+   spacing: 80
+   range: 40
+   bullet: {
+      type: LiquidBulletType
+      keepVelocity: false
+      status: melting
+      statusDuration: 1200
+      liquid: burning
+      damage: 11
+      speed: 0
+      shootEffect: shootSmall
+      lifetime: 10
+      collidesAir: true
+      killShooter: true
+      }
+   }
+]
