@@ -39,13 +39,16 @@ weapons: [
    mirror: false
    shootSound: pulse
    ejectEffect: none
+   spacing: 4
+   shots: 180
    bullet: {
       type: ContinuousLaserBulletType
-      lifetime: 60
+      lifetime: 120
       width: 2
       length: 80
       damage: 2
-      knockback: 2
+      makeFire: false
+      knockback: 4
       }
    }
 ]
