@@ -55,7 +55,7 @@ weapons: [
             sizeTo: 100000
             colorFrom: ffffff
             colorTo: ffffff00
-            interp: slope
+            interp: slowFast
             }
          ]
       }
