@@ -43,10 +43,24 @@ weapons: [
    shots: 140
    bullet: {
       type: ContinuousLaserBulletType
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            sizeFrom: 1000
+            sizeTo: 1000
+            colorFrom: ffffff
+            colorTo: ffffff00
+            }
+         ]
+      }
       lifetime: 340
       width: 0
       length: 180
-      damage: 2
+      damage: 10000
       makeFire: false
       knockback: -2
       colors: [ffffff00,ffffff00,ffffff00]
