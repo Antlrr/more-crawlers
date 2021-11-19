@@ -44,8 +44,8 @@ weapons: [
    bullet: {
       type: ContinuousLaserBulletType
       lifetime: 120
-      width: 1
-      length: 60
+      width: 0
+      length: 70
       damage: 2
       makeFire: false
       knockback: 10
