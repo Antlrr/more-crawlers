@@ -84,7 +84,7 @@ weapons: [
       speed: 0
       lifetime: 10
       fragBullets: 1
-      shootEffect: {
+      hitEffect: {
          type: MultiEffect
          effects: [
             {
