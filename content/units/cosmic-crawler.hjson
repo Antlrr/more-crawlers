@@ -78,8 +78,12 @@ weapons: [
    shots: 620
    shotDelay: 1
    bullet: {
-      type: SapBulletType
-      shootSound: false
+      type: BulletType
+      width: 0
+      height: 0
+      speed: 0
+      lifetime: 10
+      fragBullets: 1
       shootEffect: {
          type: MultiEffect
          effects: [
@@ -96,13 +100,17 @@ weapons: [
             }
          ]
       }
-      lifetime: 340
-      width: 16
-      length: 200
-      damage: 10000
-      makeFire: false
-      knockback: -9
-      colors: [ffffff00,ffffff00,ffffff00]
+      fragBullet: {
+         type: SapBulletType
+         shootSound: none
+         lifetime: 340
+         width: 1
+         length: 200
+         damage: 10000
+         makeFire: false
+         knockback: -9
+         colors: [ffffff00,ffffff00,ffffff00]
+         }
       }
    }
 ]
