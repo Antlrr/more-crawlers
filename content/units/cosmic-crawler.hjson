@@ -46,7 +46,7 @@ weapons: [
             }
             {
             type: ParticleEffect
-            lifetime: 1200
+            lifetime: 620
             particles: 1
             length: 0
             sizeFrom: 60
@@ -75,7 +75,7 @@ weapons: [
    mirror: false
    ejectEffect: none
    spacing: 1
-   shots: 620
+   shots: 520
    shotDelay: 1
    bullet: {
       type: BulletType
