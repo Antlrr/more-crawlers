@@ -97,7 +97,7 @@ weapons: [
          ]
       }
       lifetime: 340
-      width: 1
+      width: 0
       length: 200
       damage: 10000
       makeFire: false
