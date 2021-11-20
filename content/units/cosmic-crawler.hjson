@@ -17,17 +17,35 @@ weapons: [
    x: 0
    shootY: 0
    mirror: false
+   shots: 20
+   shotDelay: 5
    bullet: {
       type: BombBulletType
       hitEffect: pulverize
       lifetime: 10
-      speed: 1
-      splashDamageRadius: 55f
+      speed: 0
+      splashDamageRadius: 160
       instantDisappear: true
-      splashDamage: 90
+      splashDamage: 840
       killShooter: true
       hittable: false
       collidesAir: true
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: ParticleEffect
+            lifetime: 160
+            particles: 32
+            length: 180
+            sizeFrom: 20
+            sizeTo: 20
+            colorFrom: ffffff
+            colorTo: ffffff01
+            interp: pow10Out
+            }
+         ]
+      }
       }
    }
    {
@@ -55,16 +73,6 @@ weapons: [
             sizeTo: 9999999
             colorFrom: ffffff
             colorTo: ffffff00
-            }
-            {
-            type: ParticleEffect
-            lifetime: 160
-            particles: 32
-            length: 180
-            sizeFrom: 20
-            sizeTo: 20
-            colorFrom: ffffff
-            colorTo: ffffff01
             }
          ]
       }
