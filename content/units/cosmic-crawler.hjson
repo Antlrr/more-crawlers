@@ -5,7 +5,7 @@ hitSize: 8
 health: 200
 mechSideSway: 0.25
 range: 40
-deathSound: pulse
+deathSound: corexplode
 weapons: [
    {
    shootOnDeath: true
@@ -38,12 +38,12 @@ weapons: [
    x: 0
    shootY: 0
    mirror: false
-   shootSound: pulse
    ejectEffect: none
    spacing: 6
    shots: 140
    bullet: {
       type: ContinuousLaserBulletType
+      shootSound: pulse
       shootEffect: {
          type: MultiEffect
          effects: [
