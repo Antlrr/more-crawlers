@@ -55,7 +55,7 @@ weapons: [
             sizeTo: 9999999
             colorFrom: ffffff
             colorTo: ffffff00
-            interp: smoother
+            interp: pow10Out
             }
          ]
       }
