@@ -45,6 +45,17 @@ weapons: [
             colorTo: ffffff01
             interp: pow10Out
             }
+            {
+            type: ParticleEffect
+            lifetime: 340
+            particles: 1
+            length: 0
+            sizeFrom: 60
+            sizeTo: 60
+            colorFrom: ffffff
+            colorTo: ffffff
+            interp: pow10Out
+            }
          ]
       }
       lifetime: 340
