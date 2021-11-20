@@ -5,6 +5,7 @@ hitSize: 8
 health: 200
 mechSideSway: 0.25
 range: 40
+deathSound: pulse
 weapons: [
    {
    shootOnDeath: true
