@@ -21,6 +21,7 @@ weapons: [
    killShooter: true
    bullet: {
       type: ContinuousLaserBulletType
+      shootSound: false
       shootEffect: {
          type: MultiEffect
          effects: [
@@ -36,7 +37,7 @@ weapons: [
             }
             {
             type: ParticleEffect
-            lifetime: 160
+            lifetime: 340
             particles: 32
             length: 180
             sizeFrom: 20
