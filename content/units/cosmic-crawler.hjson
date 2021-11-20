@@ -17,8 +17,8 @@ weapons: [
    x: 0
    shootY: 0
    mirror: false
-   shots: 20
-   shotDelay: 10
+   shots: 90
+   shotDelay: 20
    bullet: {
       type: BombBulletType
       hitEffect: pulverize
