@@ -23,7 +23,7 @@ weapons: [
       type: BombBulletType
       hitEffect: pulverize
       lifetime: 10
-      speed: 0
+      speed: 1
       splashDamageRadius: 160
       instantDisappear: true
       splashDamage: 840
