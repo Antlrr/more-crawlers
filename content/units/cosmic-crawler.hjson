@@ -85,16 +85,6 @@ weapons: [
          effects: [
             {
             type: ParticleEffect
-            lifetime: 80
-            particles: 1
-            length: 0
-            sizeFrom: 9999999
-            sizeTo: 9999999
-            colorFrom: ffffff
-            colorTo: ffffff00
-            }
-            {
-            type: ParticleEffect
             lifetime: 340
             particles: 32
             length: 180
@@ -104,21 +94,10 @@ weapons: [
             colorTo: ffffff01
             interp: pow10Out
             }
-            {
-            type: ParticleEffect
-            lifetime: 340
-            particles: 1
-            length: 0
-            sizeFrom: 60
-            sizeTo: 60
-            colorFrom: ffffff
-            colorTo: ffffff
-            interp: pow10Out
-            }
          ]
       }
       lifetime: 340
-      width: 0
+      width: 1
       length: 200
       damage: 10000
       makeFire: false
