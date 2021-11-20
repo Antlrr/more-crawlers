@@ -75,8 +75,8 @@ weapons: [
    mirror: false
    ejectEffect: none
    spacing: 6
-   shots: 140
-   shotDelay: 1
+   shots: 200
+   shotDelay: 0.1
    bullet: {
       type: SapBulletType
       shootSound: false
