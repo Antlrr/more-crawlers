@@ -48,14 +48,13 @@ weapons: [
          effects: [
             {
             type: ParticleEffect
-            lifetime: 80
+            lifetime: 160
             particles: 1
             length: 0
             sizeFrom: 9999999
             sizeTo: 9999999
             colorFrom: ffffff
             colorTo: ffffff00
-            interp: pow10Out
             }
          ]
       }
