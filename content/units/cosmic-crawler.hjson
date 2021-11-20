@@ -8,7 +8,7 @@ range: 40
 deathSound: corexplode
 weapons: [
    {
-   continuous: true
+   killShooter: true
    useAmmo: false
    reload: 600
    shootCone: 360
@@ -18,7 +18,6 @@ weapons: [
    ejectEffect: none
    spacing: 6
    shots: 140
-   killShooter: true
    bullet: {
       type: ContinuousLaserBulletType
       shootSound: false
@@ -53,7 +52,7 @@ weapons: [
       length: 180
       damage: 10000
       makeFire: false
-      knockback: -2
+      knockback: 2
       colors: [ffffff00,ffffff00,ffffff00]
       }
    }
