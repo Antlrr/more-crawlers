@@ -51,11 +51,10 @@ weapons: [
             lifetime: 15
             particles: 1
             length: 0
-            sizeFrom: 100000
-            sizeTo: 100000
+            sizeFrom: 9e999
+            sizeTo: 9e999
             colorFrom: ffffff
             colorTo: ffffff00
-            interp: slowFast
             }
          ]
       }
