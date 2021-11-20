@@ -8,7 +8,6 @@ range: 40
 deathSound: corexplode
 weapons: [
    {
-   killShooter: true
    useAmmo: false
    reload: 600
    shootCone: 360
@@ -63,7 +62,67 @@ weapons: [
       length: 180
       damage: 10000
       makeFire: false
-      knockback: 2
+      knockback: 10
+      colors: [ffffff00,ffffff00,ffffff00]
+      }
+   }
+   {
+   useAmmo: false
+   reload: 600
+   shootCone: 360
+   x: 0
+   shootY: 0
+   mirror: false
+   ejectEffect: none
+   spacing: 6
+   shots: 140
+   shotDelay: 20
+   bullet: {
+      type: SapBulletType
+      shootSound: false
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: ParticleEffect
+            lifetime: 80
+            particles: 1
+            length: 0
+            sizeFrom: 9999999
+            sizeTo: 9999999
+            colorFrom: ffffff
+            colorTo: ffffff00
+            }
+            {
+            type: ParticleEffect
+            lifetime: 340
+            particles: 32
+            length: 180
+            sizeFrom: 20
+            sizeTo: 20
+            colorFrom: ffffff
+            colorTo: ffffff01
+            interp: pow10Out
+            }
+            {
+            type: ParticleEffect
+            lifetime: 340
+            particles: 1
+            length: 0
+            sizeFrom: 60
+            sizeTo: 60
+            colorFrom: ffffff
+            colorTo: ffffff
+            interp: pow10Out
+            }
+         ]
+      }
+      lifetime: 340
+      width: 0
+      length: 200
+      damage: 10000
+      makeFire: false
+      knockback: -9
       colors: [ffffff00,ffffff00,ffffff00]
       }
    }
