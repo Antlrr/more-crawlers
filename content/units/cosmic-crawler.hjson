@@ -90,8 +90,8 @@ weapons: [
             {
             type: ParticleEffect
             lifetime: 340
-            particles: 32
-            length: 180
+            particles: 10
+            length: 199
             sizeFrom: 20
             sizeTo: 20
             colorFrom: ffffff
