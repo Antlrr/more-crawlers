@@ -43,7 +43,6 @@ weapons: [
    shots: 140
    bullet: {
       type: ContinuousLaserBulletType
-      shootSound: pulse
       shootEffect: {
          type: MultiEffect
          effects: [
@@ -56,6 +55,16 @@ weapons: [
             sizeTo: 9999999
             colorFrom: ffffff
             colorTo: ffffff00
+            }
+            {
+            type: ParticleEffect
+            lifetime: 160
+            particles: 32
+            length: 180
+            sizeFrom: 20
+            sizeTo: 20
+            colorFrom: ffffff
+            colorTo: ffffff01
             }
          ]
       }
