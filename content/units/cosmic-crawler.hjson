@@ -25,7 +25,7 @@ weapons: [
          effects: [
             {
             type: ParticleEffect
-            lifetime: 320
+            lifetime: 80
             particles: 1
             length: 0
             sizeFrom: 9999999
@@ -46,7 +46,7 @@ weapons: [
             }
             {
             type: ParticleEffect
-            lifetime: 340
+            lifetime: 420
             particles: 1
             length: 0
             sizeFrom: 60
