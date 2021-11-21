@@ -73,7 +73,7 @@ weapons: [
       speed: 0
       lifetime: 10
       fragBullets: 1
-      despwnEffect: {
+      despawnEffect: {
          type: MultiEffect
          effects: [
             {
