@@ -66,6 +66,22 @@ weapons: [
    spacing: 1
    shots: 620
    shotDelay: 1
+   shootEffect: {
+      type: MultiEffect
+      effects: [
+         {
+         type: ParticleEffect
+         lifetime: 340
+         particles: 10
+         length: 220
+         sizeFrom: 20
+         sizeTo: 20
+         colorFrom: ffffff
+         colorTo: ffffff01
+         interp: pow10Out
+         }
+      ]
+   }
    bullet: {
       type: BulletType
       width: 0
@@ -73,22 +89,6 @@ weapons: [
       speed: 0
       lifetime: 10
       fragBullets: 1
-      despawnEffect: {
-         type: MultiEffect
-         effects: [
-            {
-            type: ParticleEffect
-            lifetime: 340
-            particles: 10
-            length: 220
-            sizeFrom: 20
-            sizeTo: 20
-            colorFrom: ffffff
-            colorTo: ffffff01
-            interp: pow10Out
-            }
-         ]
-      }
       fragBullet: {
          type: SapBulletType
          shootSound: none
