@@ -73,7 +73,7 @@ weapons: [
       speed: 0
       lifetime: 10
       fragBullets: 1
-      hitEffect: {
+      despwnEffect: {
          type: MultiEffect
          effects: [
             {
@@ -93,7 +93,7 @@ weapons: [
          type: SapBulletType
          shootSound: none
          lifetime: 340
-         width: 1
+         width: 0
          length: 200
          damage: 10000
          makeFire: false
